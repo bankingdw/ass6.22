@@ -1,0 +1,65 @@
+1.Why MapReduce program is needed in Pig Programming?
+
+*Pig is an application which runs that the top of theMapReduce and abstract java mapreduce jobs away from developers.
+ *Java is a first-class language in Hadoop and always give the developer with more options.
+ *However , Pig is written in Java and allows for delvelopers to write user defined functions in java that leverages java libraries.
+ *So, we call Pig a second-class language in MapReduce.
+ 
+2.. What are advantages of Pig over MapReduce?
+
+PIG:
+
+*When we write the same code in Pig, the number of lines of code will drastically decreased.
+*Another thing is we need not import any libraries.
+*It is very easy for someone without the knowledge of java and with little SQL knowledge.
+
+MAPREDUCE:
+
+ *Knowledge in java programming is required.
+ *When we write a MapReduce program for a problem, it may takes many lines of code and also we should import some or more libraries to
+ begin the MapReduce job.
+ *Also we need to write Mapper and Reducer classes along with the Driver class.
+ *Then we need to compile and execute the program.
+
+
+3.What is Pig engine and what is its importance?
+
+Pig Engine:
+      *Apache Pig has a component known as Pig Engine which accepts the Pig Latin scripts and converts those scripts into 
+MapReduce jobs.
+
+Pig Engine importance: 
+      *It acts as an interpreter between the Pig Latin script and MapReduce jobs.
+      *It creates environment to execute pig scripts into series of mapreduce jobs in parallel manner.
+
+4.What are the modes of Pig execution?
+
+*There are two modes of Pig execution: 
+             1. Local Mode: In this mode, you run the Pig to access to a single machine, where 
+all the files are stored in local file system.
+             2. MapReduce Mode: In this mode, you run the Pig to access to a Hadoop Cluster and HDFS installation.
+
+5.What is Grunt Shell in Pig?
+
+*The Grunt shell of Apache Pig is mainly used to write Pig latin scripts.
+
+6. What are the features of Pig Latin language?
+
+Features of Pig Lation Language:
+
+*It provides many operators to peform operations such as join, sort, filter, etc.
+*It is similar to SQL and it is easy to write Pig script if you have good knowledge in SQL.
+*The tasks in Apache Pig optimize their execution automatically.
+*It provides the facility to create user-defined functions in other programming languages such as Java, and invoke
+or embed them in pig scripts.
+
+7. Is Pig Latin commands case sensitive?
+
+*The names of relations and fields are case sensitive.
+*The names of the Pig latin functions are also case sensitive.
+*The names of paramaters and all other keywords are case insensitive.
+
+8. What is a data flow language?
+
+*In computer programming, dataflow programming is a programming paradigm that models a program as a directed
+graph of the data flowing between operations thus implementing dataflow principle and architecture. 
